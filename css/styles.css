@@ -1,0 +1,110 @@
+body {
+  background-color: #19a2ae;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+hr {
+  border-top: 0;
+}
+
+
+.img-top{
+  position: relative;
+  right: 600px;
+  bottom: 500px;
+  z-index: 0;
+}
+
+.img-bottom {
+  position: relative;
+  left: 450px;
+  bottom: 700px;
+  z-index: 0;
+}
+
+.card {
+  position: absolute;
+  top: 120px;
+  left: 520px;
+  margin: auto;
+  background-color: white;
+  opacity: 1;
+  width: 350px;
+  border-radius: 15px;
+  padding-bottom: 15px;
+  box-shadow: 5px 10px 100px grey;
+  z-index: 1;
+}
+
+.img-card-bg {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 60px;
+  border-radius: 15px 15px 0 0;
+}
+.img-card-victor{
+  position: absolute;
+  top: 90px;
+  left: 125px;
+  border-radius: 50%;
+  border-width: thick;
+  border: solid white;
+}
+
+.name {
+  display: inline-block;
+  font-size: 18px;
+  color: #2d3248;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.age {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  color: #969696;
+  margin-bottom: 10px;
+}
+.left {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.middle {
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.right {
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.parameter-count {
+  color: #2d3248;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.parameter {
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+  margin-top: 0;
+  letter-spacing: 1.5px;
+}
+.city {
+  font-size: 14px;
+  font-weight: 400;
+  color: #969696;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
